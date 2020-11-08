@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.1 Framework_Hennadiy</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="blackout" id="blackout">
+            <!-- block to darken the top with a background image -->
+        </div>
+        <div class="top-article">
+            <p>We deliver Worldwide</p>
+            <a href="#"><img src="img/Shape.png" alt="label">
+                <span>Our stores</span>
+            </a>
+        </div>
+        <div class="top-side" id="top-side">
+            <a href="index.html" class="logo">Aurora</a>
+            <form>
+                <input type="search" placeholder="What are you looking for?" class="find">
+                <input type="submit" value="">
+            </form>
+            <div class="log-in" id="logIn">
+                <a href="#" onclick="signIn()">Sign in</a><span> | </span><a href="#">Register</a>
+            </div>
+            <div id="chest">
+                <a href="#" class="basket"><img src="img/basket.png" alt="basket"></a>
+            </div>
+            <nav class="navbar" id="navbar">
+                <ul>
+                    <li>
+                        <a href="#">what’s new</a>
+                    </li>
+                    <li>
+                        <a href="#">women</a>
+                    </li>
+                    <li>
+                        <a href="#">accessories</a>
+                    </li>
+                    <li>
+                        <a href="#">kids</a>
+                    </li>
+                    <li>
+                        <a href="#">beauty</a>
+                    </li>
+                    <li>
+                        <a href="#">outlet</a>
+                    </li>
+                    <li>
+                        <a href="#">stories</a>
+                    </li>
+                </ul>
+                <div class="menu-burger">
+                    <a href="#"> <img src="img/menu burger.png" alt="menu burger"></a>
+                </div>
+            </nav>
+        </div>
+        <div class="greeting">
+            <h1 onclick="changeBgHeader()">Hello! Welcome to Aurora</h1>
+        </div>
+    </header>
+    <div class="main-side">
+        <p>New arrivals. Exclusive previews. First access to sales. Sign up to stay in the know.</p>
+        <form>
+            <input type="email" placeholder="Your email address" class="email">
+            <input type="submit" value="register">
+        </form>
+    </div>
+    <footer>
+        <div class="first-col hidden-menu">
+            <a href="#">
+                <h2>About Us</h2><img src="img/chevrondown.png" alt="chevrondown" class="chevrondown"><img src="img/chevrondownActive.png" alt="chevrondown" class="chevrondown-active">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Who we are</a>
+                </li>
+                <li>
+                    <a href="#">Our stores</a>
+                </li>
+                <li>
+                    <a href="#">Customer Reviews</a>
+                </li>
+            </ul>
+        </div>
+        <div class="second-col hidden-menu">
+            <a href="#">
+                <h2>Categories</h2><img src="img/chevrondown.png" alt="chevrondown" class="chevrondown"><img src="img/chevrondownActive.png" alt="chevrondown" class="chevrondown-active">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Women fashion</a>
+                </li>
+                <li>
+                    <a href="#">Accessories</a>
+                </li>
+                <li>
+                    <a href="#">Kids</a>
+                </li>
+            </ul>
+        </div>
+        <div class="third-col hidden-menu">
+            <a href="#">
+                <h2>Help</h2><img src="img/chevrondown.png" alt="chevrondown" class="chevrondown"><img src="img/chevrondownActive.png" alt="chevrondown" class="chevrondown-active">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Customer service</a>
+                </li>
+                <li>
+                    <a href="#">Size guide</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="fourth-col hidden-menu">
+            <a href="#">
+                <h2>Payments & Delivery</h2><img src="img/chevrondown.png" alt="chevrondown" class="chevrondown"><img src="img/chevrondownActive.png" alt="chevrondown" class="chevrondown-active">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Purchase terms</a>
+                </li>
+                <li>
+                    <a href="#">Guarantee</a>
+                </li>
+            </ul>
+        </div>
+        <div class="fifth-col">
+            <a href="#">
+                <h2>Social</h2>
+            </a>
+            <a href="#"><img src="img/insta.png" alt="Instagram"></a>
+            <a href="#"><img src="img/twitter.png" alt="Instagram"></a>
+            <a href="#"><img src="img/snapchat.png" alt="Instagram"></a>
+            <a href="#"><img src="img/facebook.png" alt="Instagram"></a>
+            <a href="#"><img src="img/youtube.png" alt="Instagram"></a>
+        </div>
+        <div class="copyright">
+            <p>
+                © Copyright, Aurora 2020. All Rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
